@@ -1,0 +1,69 @@
+# Fichiers compilés Java
+*.class
+
+# Dossiers de build Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Fichiers de base de données
+*.db
+*.h2.db
+*.mv.db
+*.log
+
+# Fichiers PDF temporaires
+*.pdf
+
+# Fichiers temporaires
+*.cache
+*.tmp
+*.bak
+*.swp
+*~
+
+# Fichiers de l’IDE
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+*.code-workspace
+/shelf/
+/workspace.xml
+
+# Fichiers de configuration locale
+*.local
+local.properties
+
+# Fichiers spécifiques à JavaFX
+*.jfx
+*.jfxlog
+
+# Fichiers de tests et couverture
+*.test
+*.tests
+jacoco.exec
+*.coverage
+
+# Dossiers de build et déploiement
+dist/
+out/
+bin/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers Maven/Gradle
+.mvn/
+.mvn/wrapper/
+.gradle/
+build/
+
+# Exception pour les fichiers de configuration partagés (à ajuster selon vos besoins)
+!application.properties
+!config.properties
